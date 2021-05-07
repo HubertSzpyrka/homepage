@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hubert Szpyrka - Moja strona domowa.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/article.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body>
+    <header class=header>
+        <h1 class="header__header js-header">Witam na mojej stronie!</h1>
+    </header>
+
+    <nav class="navigation">
+
+        <ul class="navigation__unorderedList">
+            <li class="navigation__listItem">
+                <a class="navigation__link" href="#oMnie">O mnie</a>
+            </li>
+            <li class="navigation__listItem">
+                <a class="navigation__link" href="#podroze">Podróże</a>
+            </li>
+            <li class="navigation__listItem">
+                <a class="navigation__link" href="#pizza">Pizza</a>
+            </li>
+        </ul>
+    </nav>
+    <main class="main">
+
+        <div class="main__sectionImage">
+            <img class="main__imageHubert js-imageHubert"
+                src="https://scontent.fwaw5-1.fna.fbcdn.net/v/t1.6435-9/166332701_4201977223169697_1147751721378088047_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=GixRBhcJRooAX9cnyyZ&_nc_ht=scontent.fwaw5-1.fna&oh=bc4683d55c65361831b60a7e0cc4257b&oe=6089C83F"
+                alt="Hubert Szpyrka">
+        </div>
+
+        <button class="js-delateHeaderButton main__button">usuń nagłówek</button>
+        <button class="js-radiuseImageButton main__button">zaokrąglij zdjęcie</button>
+    </main>
+
+    <article class="article">
+        <h2 class="article__header">Kilka słów o mnie: </h2>
+
+        <h3 class="article__subHeader" id="oMnie">Cześć!</h3>
+
+        <p><strong>Nazywam się Hubert Szpyrka</strong>, mieszkam na południu Polski, w Jaśle. Możliwe, że kiedyś miałeś
+            okazję odwiedzić Jasło w drodze w Bieszczady.<br>
+            W tym roku kończę 33 lata. Jestem fotografem z pasji oraz zawodu. Całe moje zawodowe życie jest mniej lub
+            bardziej związane z tą dziedziną sztuki.
+            Od 2015 roku wraz z żoną Ulą prowadzimy firmę fotograficzną <a class="article__link"
+                href="https://www.szpyrki.pl">Szpyrki -
+                Pracownia
+                Twórcza</a>. W głównej mierze zajmujemy się fotografią ślubną, fotografią rodzinną oraz produktową. Od
+            roku
+            prowadzimy również własne studio fotograficzne. Nasze miejsce na ziemi w którym możemy się wyżyć
+            artystycznie,
+            bez względu na to jaka jest pogoda i pora roku.
+        </p>
+    </article>
+
+    <article class="article">
+        <h2 id="podroze" class="article__header">Podróże</h2>
+        <p>W życiu prywatnym <b>od trzech lat jestem tatą Ewy</b> - najcudowniejszej
+            istoty na
+            ziemi.
+            Całą rodziną
+            uwielbiamy podróżować. Lista odwiedzonych miejsc z roku na rok się powiększa. Ewa mając <em>3 lata</em>
+            zaliczyła już chyba większość metod przemieszczania się. Począwszy od samolotu, przez promy, łódki, fotelik
+            rowerowy do <i>tuktuk-ów</i> w Bangkoku.</p>
+
+        <div class="article__tableConteiner">
+            <table class="article__table">
+                <caption class="article__caption">Zagraniczne podróże z Ewą.</caption>
+                <tbody>
+                    <tr class="article__tableRow">
+                        <th class="article__tableCell article__tableHeader" scope="col">Miejsce</th>
+                        <th class="article__tableCell article__tableHeader" scope="col">Rok</th>
+                        <th class="article__tableCell article__tableHeader" scope="col">Środek transportu</th>
+                        <th class="article__tableCell article__tableHeader" scope="col">Ilość dni</th>
+                    </tr>
+                    <tr class="article__tableRow">
+                        <th class="article__tableCell article__tableHeader" scope="row">Bali, Indonezja</th>
+                        <td class="article__tableCell">2020</td>
+                        <td class="article__tableCell">Samolot</td>
+                        <td class="article__tableCell">14</td>
+                    </tr>
+                    <tr class="article__tableRow">
+                        <th class="article__tableCell article__tableHeader" scope="row">Lofoty, Norwegia</th>
+                        <td class="article__tableCell" rowspan="2">2019</td>
+                        <td class="article__tableCell" rowspan="2">Samochód</td>
+                        <td class="article__tableCell">6</td>
+                    </tr>
+                    <tr class="article__tableRow">
+                        <th class="article__tableCell article__tableHeader" scope="row">Laponia, Finlandia</th>
+                        <td class="article__tableCell">3</td>
+                    </tr>
+                    <tr class="article__tableRow">
+                        <th class="article__tableCell article__tableHeader" scope="row">Tajlandia</th>
+                        <td class="article__tableCell">2018</td>
+                        <td class="article__tableCell">Samolot</td>
+                        <td class="article__tableCell">20</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </article>
+
+    <article class="article">
+        <h2 class="article__header" id="pizza">Włoska Pizza</h2>
+
+        <p>Z najnowszych odkryć, które mnie bardzo zainteresowały - to wypiek włoskiej pizzy np. Neapolitańskiej.
+            Niestety w
+            naszym mieście nie ma dobrych pizzerii a dobrych, które oferują dowóz już w ogóle. Dlatego też postanowiłem
+            nauczyć się robić włoską pizze sam. Dołączyłęm do "Klubu Miłośników Pizzy" na Facebooku, kupiłem granitowy
+            kamień do wypieku i się zaczęło.
+            Od kilku tygodni doskonalę tajniki tej sztuki. Wyrabianie ciasta, formowanie placków, odpowiednie nagrzanie
+            piekarnika i komponowania najsmaczniejszych placków. Z każdym tygodniem jestem bardziej zadowolony z
+            efektów. Za
+            jakiś czas dorzucę zdjęcia ;) </p>
+
+    </article>
+
+    <footer class="footer">© Hubert Szpyrka - strona przygotowana w ramach kursu <a class="footer__link" target="_blank"
+            title="Oficjalna strona Kursu YouCode." rel="noreferrer noopener" href="https://youcode.pl/">YouCode</a>
+        (link otworzy się w nowej karcie)</footer>
+</body>
+
+</html>

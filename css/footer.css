@@ -1,0 +1,30 @@
+.footer {
+    color: #fff;
+    background-color: #55869E;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.footer__link {
+    color: #eee;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+.footer__link:focus {
+    outline: 2px solid currentColor;
+}
+
+.footer__link:hover {
+    color: hsl(0, 0%, 80%);
+    border-bottom: none;
+    text-decoration: none;
+    outline: none;
+}
+
+.footer__link:active {
+    color: hsl(0, 0%, 75%);
+    text-decoration: none;
+}

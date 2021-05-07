@@ -1,0 +1,48 @@
+.main {
+    text-align: center;
+    margin: 0px auto;
+}
+
+.main__button {
+    color: #333;
+    background-color: #B3D7E8;
+    border: 1px #55869e;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.main__button:focus {
+    outline: 2px solid currentColor;
+}
+
+.main__button:hover {
+    box-shadow: 2px 2px 10px -2px #c9c9c9;
+    color: darkred;
+}
+
+.main__button:active {
+    color: crimson;
+    text-decoration: none;
+    outline: none;
+}
+
+.main__sectionImage {
+    text-align: center;
+    margin: 0px auto;
+}
+
+.main__imageHubert {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 0px;
+}
+
+.main__imageHubertRadius {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 300px;
+    margin: 10 auto;
+}
